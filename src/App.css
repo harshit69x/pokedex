@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  display: flex;
+  justify-content: center; /* Adjust as needed */
+  align-items: center; /* Align vertically if needed */
+  height: 100vh;
+ /* Adjust height as needed */
+}
+
+.left-panel,
+.right-panel {
+  flex: 1; /* Equal width panels */
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
