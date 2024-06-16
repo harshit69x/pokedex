@@ -20,7 +20,7 @@ const Pokedex = ({ pokemonName, sprite, type }) => {
               alt={pokemonName || "Pokemon"}
             />
           )}
-          <h2>{pokemonName ? `Pokemon Name: ${pokemonName}` : 'Pokemon'}</h2>
+          <h2>{pokemonName ? `${pokemonName}` : 'Pokemon'}</h2>
           <p className="description" style={{ fontWeight: '100' }}>
             Type: <span style={{ backgroundColor: 'white', borderRadius: '5px', color: 'black' }}>{type || "Type"}</span>
           </p>
